@@ -2770,7 +2770,6 @@ class TtNews extends AbstractPlugin
             $hash = GeneralUtility::shortMD5(serialize(array(
                 $uid,
                 $this->config['catOrderBy'],
-                $this->enableCatFields,
                 $this->SPaddWhere,
                 $getAll,
                 $this->tsfe->sys_language_content,
